@@ -8,6 +8,7 @@ button {
   padding: 16px;
   outline: none;
   font-weight: 500;
+  margin: 4px;
 }
 
 button:hover {

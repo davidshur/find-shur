@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <Landing />
       <Navigation />
-      <div title="About" id="about">
+      <div id="about">
       </div>
-      <div title="Projects" id="projects">
+      <div id="projects">
       </div>
-      <div title="Contact" id="contact">
+      <div id="contact">
       </div>
     </div>
   );

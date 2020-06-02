@@ -1,0 +1,42 @@
+.nav {
+  background-color: #1b1f27;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-content {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  color: white;
+  width: 100vw;
+  align-items: center;
+}
+
+li {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  padding: 0 32px 0 32px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #fe53bb;
+  background-color: #282c34;
+}

@@ -1,28 +1,21 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import logo from '../../assets/logo.png';
 import './style.css';
 
 const Navigation = () =>(
   <nav className="nav" id="navbar">
     <div className="nav-content">
-      <img
-        src={logo}
-        className="nav-logo"
-        alt="David Shur"
-        onClick={scroll.scrollToTop}
-      />
       <ul>
         <li>
           <Link
             activeClass="active"
             duration={500}
             offset={-70}
+            onClick={scroll.scrollToTop}
             smooth={true}
             spy={true}
-            to="about"
           >
-            About
+            HOME
           </Link>
         </li>
         <li>
@@ -32,9 +25,21 @@ const Navigation = () =>(
             offset={-70}
             smooth={true}
             spy={true}
-            to="projects"
+            to="about"
           >
-            Projects
+            ABOUT
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            duration={500}
+            offset={-70}
+            smooth={true}
+            spy={true}
+            to="portfolio"
+          >
+            PORTFOLIO
           </Link>
         </li>
         <li>
@@ -46,7 +51,7 @@ const Navigation = () =>(
             spy={true}
             to="contact"
           >
-            Contact
+            CONTACT
           </Link>
         </li>
       </ul>

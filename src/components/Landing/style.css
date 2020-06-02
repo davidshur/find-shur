@@ -1,27 +1,27 @@
-.my-name {
-  color: #fe53bb;
-  font-weight: 500;
-}
-
 p {
   margin: 0 0 16px 0;
 }
 
 .button {
-  border-radius: 0;
-  border: 1px solid white;
   background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  padding: 16px;
-  outline: none;
   font-weight: 500;
   margin: 4px;
+  outline: none;
+  padding: 16px;
 }
 
 .button:hover {
   border: 1px solid #fe53bb;
   color: #fe53bb;
   cursor: pointer;
+}
+
+.my-name {
+  color: #fe53bb;
+  font-weight: 500;
 }

@@ -3,6 +3,7 @@ import './style.css';
 
 const Contact = () => (
   <div className="section contact" name="contact">
+    <h3>Contact</h3>
     <form>
       <input className="input-field" type="text" id="name" name="name" placeholder="Name" />
       <input className="input-field" type="email" id="email" name="email" placeholder="Email" />

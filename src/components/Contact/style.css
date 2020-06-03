@@ -68,4 +68,12 @@ textarea {
   form {
     width: 80vw;
   }
+
+  textarea {
+    font-size: 24px;
+  }
+
+  .input-field {
+    font-size: 24px;
+  }
 }

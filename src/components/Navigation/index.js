@@ -10,7 +10,7 @@ const Navigation = () =>(
           activeClass="active"
           className="nav-link"
           duration={500}
-          offset={-70}
+          offset={-64}
           smooth={true}
           spy={true}
           to="landing"
@@ -23,7 +23,7 @@ const Navigation = () =>(
           activeClass="active"
           className="nav-link"
           duration={500}
-          offset={-70}
+          offset={-64}
           smooth={true}
           spy={true}
           to="about"
@@ -36,7 +36,7 @@ const Navigation = () =>(
           activeClass="active"
           className="nav-link"
           duration={500}
-          offset={-70}
+          offset={-64}
           smooth={true}
           spy={true}
           to="portfolio"
@@ -49,7 +49,7 @@ const Navigation = () =>(
           activeClass="active"
           className="nav-link"
           duration={500}
-          offset={-70}
+          offset={-64}
           smooth={true}
           spy={true}
           to="contact"

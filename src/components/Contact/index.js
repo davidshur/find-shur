@@ -1,7 +1,8 @@
 import React from 'react';
+import './style.css';
 
 const Contact = () => (
-  <div className="section" name="contact">
+  <div className="section contact" name="contact">
     <form>
       <input type="text" id="name" name="name" value="name" />
       <label for="name">Name</label><br />

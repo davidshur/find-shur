@@ -9,7 +9,7 @@ const Landing = () => (
     <Link
       className="button"
       duration={500}
-      offset={-70}
+      offset={-64}
       smooth={true}
       spy={true}
       to="about"

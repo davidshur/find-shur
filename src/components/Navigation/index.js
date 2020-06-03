@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import './style.css';
 
 const Navigation = () =>(
@@ -11,9 +11,9 @@ const Navigation = () =>(
           className="nav-link"
           duration={500}
           offset={-70}
-          onClick={scroll.scrollToTop}
           smooth={true}
           spy={true}
+          to="landing"
         >
           <li>
             HOME

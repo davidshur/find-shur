@@ -45,3 +45,8 @@ ul {
   color: #fe53bb;
   cursor: pointer;
 }
+
+.active {
+  background-color: #282c34;
+  color: #fe53bb;
+}

@@ -6,54 +6,58 @@ const Navigation = () =>(
   <nav className="nav" id="navbar">
     <div className="nav-content">
       <ul>
-        <li>
-          <Link
-            activeClass="active"
-            duration={500}
-            offset={-70}
-            onClick={scroll.scrollToTop}
-            smooth={true}
-            spy={true}
-          >
+        <Link
+          activeClass="active"
+          className="nav-link"
+          duration={500}
+          offset={-70}
+          onClick={scroll.scrollToTop}
+          smooth={true}
+          spy={true}
+        >
+          <li>
             HOME
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            duration={500}
-            offset={-70}
-            smooth={true}
-            spy={true}
-            to="about"
-          >
+          </li>
+        </Link>
+        <Link
+          activeClass="active"
+          className="nav-link"
+          duration={500}
+          offset={-70}
+          smooth={true}
+          spy={true}
+          to="about"
+        >
+          <li>
             ABOUT
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            duration={500}
-            offset={-70}
-            smooth={true}
-            spy={true}
-            to="portfolio"
-          >
+          </li>
+        </Link>
+        <Link
+          activeClass="active"
+          className="nav-link"
+          duration={500}
+          offset={-70}
+          smooth={true}
+          spy={true}
+          to="portfolio"
+        >
+          <li>
             PORTFOLIO
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            duration={500}
-            offset={-70}
-            smooth={true}
-            spy={true}
-            to="contact"
-          >
+          </li>
+        </Link>
+        <Link
+          activeClass="active"
+          className="nav-link"
+          duration={500}
+          offset={-70}
+          smooth={true}
+          spy={true}
+          to="contact"
+        >
+          <li>
             CONTACT
-          </Link>
-        </li>
+          </li>
+        </Link>
       </ul>
     </div>
   </nav>

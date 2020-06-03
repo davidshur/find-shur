@@ -1,6 +1,9 @@
 import React from 'react';
+import About from '../About';
+import Contact from '../Contact';
 import Landing from '../Landing';
 import Navigation from '../Navigation';
+import Portfolio from '../Portfolio';
 import './style.css';
 
 function App() {
@@ -8,12 +11,9 @@ function App() {
     <div className="App">
       <Landing />
       <Navigation />
-      <div id="about">
-      </div>
-      <div id="projects">
-      </div>
-      <div id="contact">
-      </div>
+      <About />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

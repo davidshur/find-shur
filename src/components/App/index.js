@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Landing />
       <Navigation />
-      <About id="about" />
+      <About />
       <Portfolio />
       <Contact />
     </div>

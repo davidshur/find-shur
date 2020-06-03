@@ -4,11 +4,6 @@ form {
   width: 50vw;
 }
 
-h3 {
-  border-bottom: 1px solid white;
-  font-weight: 300;
-}
-
 textarea {
   background-color: #1b1f27;
   border: none;

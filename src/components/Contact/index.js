@@ -4,13 +4,13 @@ import './style.css';
 const Contact = () => (
   <div className="section contact" name="contact">
     <h3 className="section-header-dark">Contact</h3>
-    <form>
+    <form action="mailto:david.shur@yahoo.com?subject=Contact from FindShur!" method="POST" enctype="text/plain">
       <input className="input-field" type="text" id="name" name="name" placeholder="Name" />
       <input className="input-field" type="email" id="email" name="email" placeholder="Email" />
       <textarea
         type="message"
         id="message"
-        name="message"
+        name="comments"
         placeholder="Message"
         rows="4"
       />

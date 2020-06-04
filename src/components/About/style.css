@@ -54,5 +54,6 @@ h5 {
 
 .text-box {
   max-width: 500px;
+  margin: auto;
   padding: 16px;
 }

@@ -42,7 +42,6 @@ h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 3vmin;
   font-weight: 500;
-  margin: 4px;
   outline: none;
   padding: 16px;
   text-decoration: none;
@@ -50,7 +49,7 @@ h5 {
 
 .skills {
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   width: 50vw;

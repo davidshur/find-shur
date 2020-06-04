@@ -15,8 +15,6 @@ const About = () => (
         <p className="bio-text">I am a full-stack web developer and software engineer. I have a passion for building robust applications that are well integrated. As the founder and CEO of Jurne I have experience in getting projects off the ground quickly. I love building efficient programs and scalable procedures.</p>
       </div>
     </div>
-    <h5>Get to know me.</h5>
-    <h5><span style={{fontWeight: '500'}}>Click</span> one of the links below!</h5>
     <div className="skills">
       <a className="skill-link" href={resume}><ResumeIcon /></a>
       <a className="skill-link" href="https://github.com/davidshur"><GithubIcon /></a>

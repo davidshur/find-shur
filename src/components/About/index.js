@@ -3,6 +3,7 @@ import GithubIcon from '../../assets/icons/github';
 import LinkedinIcon from '../../assets/icons/linkedin';
 import ResumeIcon from '../../assets/icons/resume';
 import profilePicture from '../../assets/images/david.jpg';
+import resume from '../../assets/images/resume.pdf';
 import './style.css';
 
 const About = () => (
@@ -18,7 +19,7 @@ const About = () => (
       </div>
       <div className="skills">
         <h5 width="50px">Helpful Links:</h5>
-        <a className="skill-link" href="https://github.com/davidshur"><ResumeIcon /></a>
+        <a className="skill-link" href={resume}><ResumeIcon /></a>
         <a className="skill-link" href="https://github.com/davidshur"><GithubIcon /></a>
         <a className="skill-link" href="https://www.linkedin.com/in/david-shur/"><LinkedinIcon /></a>
       </div>

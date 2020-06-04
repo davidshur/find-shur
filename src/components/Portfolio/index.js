@@ -1,4 +1,5 @@
 import React from 'react';
+import HoverCard from './HoverCard';
 import Projects from '../../utils/projects';
 import './style.css';
 

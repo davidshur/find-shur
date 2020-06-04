@@ -46,11 +46,16 @@
     flex-direction: column;
   }
 
+  .profile-picture {
+    height: 200px;
+    width: 200px;
+  }
+
   .bio {
-    width: 80vh;
+    width: 80vw;
   }
 
   .skills {
-    width: 80vh;
+    width: 80vw;
   }
 }

@@ -8,7 +8,9 @@ const Portfolio = () => (
     <div className="project-container">
       {Projects.map(project =>
         <div className="project" key={project.id}>
-          <img className="project-image" src={project.image} alt={project.title} />
+          <a className="project-link" href={project.site}>
+            <img className="project-image" src={project.image} alt={project.title} />
+          </a>
         </div>
       )}
     </div>

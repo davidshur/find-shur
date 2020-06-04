@@ -34,6 +34,10 @@
   padding: 0;
 }
 
+.project-link {
+  display: flex;
+}
+
 @media only screen and (max-width: 900px) {
   .project {
     flex: 0 1 48%;

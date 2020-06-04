@@ -1,3 +1,13 @@
+.links:hover {
+  color: #7690c7;
+}
+
+.profile-picture {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
 .about {
   align-items: center;
   color: #282c34;
@@ -10,8 +20,30 @@
   min-height: calc(100vh - 64px);
 }
 
+.bio {
+  width: 50vw;
+}
+
 .bio-text {
-  font-size: 10 + 1vmin;
+  font-size: calc(12px + 2vmin);
+}
+
+.skill-link {
+  color: #282c34;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vmin;
+  font-weight: 500;
+  margin: 4px;
+  outline: none;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: space-around;
 }
 
 .text-box {

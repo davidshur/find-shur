@@ -17,7 +17,7 @@
 
 .cols {
   display: flex;
-  flex-direction: columns;
+  flex-direction: row;
 }
 
 .section {
@@ -39,4 +39,18 @@
 .section-header-dark {
   border-bottom: 4px solid white;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+  .cols {
+    flex-direction: column;
+  }
+
+  .bio {
+    width: 80vh;
+  }
+
+  .skills {
+    width: 80vh;
+  }
 }

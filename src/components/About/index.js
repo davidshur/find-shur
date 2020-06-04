@@ -17,6 +17,7 @@ const About = () => (
         </div>
       </div>
       <div className="skills">
+        <h5 width="50px">Helpful Links:</h5>
         <a className="skill-link" href="https://github.com/davidshur"><ResumeIcon /></a>
         <a className="skill-link" href="https://github.com/davidshur"><GithubIcon /></a>
         <a className="skill-link" href="https://www.linkedin.com/in/david-shur/"><LinkedinIcon /></a>

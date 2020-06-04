@@ -13,7 +13,7 @@ const About = () => (
       <div className="bio">
         <img className="profile-picture" src={profilePicture} alt="David Shur" />
         <div className="text-box">
-          <p className="bio-text">I am a full-stack web developer and software engineer. I have a passion for building robust applications that are well integrated. As the founder and CEO of Jurne I have experience in getting projects off the ground quickly and building scalable and efficient programs and procedures.</p>
+          <p className="bio-text">I am a full-stack web developer and software engineer. I have a passion for building robust applications that are well integrated. As the founder and CEO of Jurne I have experience in getting projects off the ground quickly. I love building efficient programs and scalable procedures.</p>
         </div>
       </div>
       <div className="skills">

@@ -5,7 +5,7 @@ import './style.css';
 const Landing = () => (
   <header className="App-header" name="landing">
     <p>Hi, I'm <span className="my-name">David Shur</span>.</p>
-    <p>I'm a full-stack web developer.</p>
+    <p>I'm a software engineer.</p>
     <Link
       className="button"
       duration={500}

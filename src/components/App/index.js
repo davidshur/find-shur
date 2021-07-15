@@ -1,6 +1,5 @@
 import React from 'react';
 import About from '../About';
-import Contact from '../Contact';
 import Landing from '../Landing';
 import Navigation from '../Navigation';
 import Portfolio from '../Portfolio';
@@ -13,7 +12,6 @@ function App() {
       <Navigation />
       <About />
       <Portfolio />
-      <Contact />
     </div>
   );
 }

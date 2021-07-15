@@ -45,19 +45,6 @@ const Navigation = () =>(
             PORTFOLIO
           </li>
         </Link>
-        <Link
-          activeClass="active"
-          className="nav-link"
-          duration={500}
-          offset={-64}
-          smooth={true}
-          spy={true}
-          to="contact"
-        >
-          <li>
-            CONTACT
-          </li>
-        </Link>
       </ul>
     </div>
   </nav>

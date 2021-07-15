@@ -12,7 +12,8 @@ const About = () => (
     <div className="bio">
       <img className="profile-picture" src={profilePicture} alt="David Shur" />
       <div className="text-box">
-        <p className="bio-text">I am a software engineer. I have a passion for building robust applications that are well integrated. As the founder and CEO of Jurne I have experience in getting projects off the ground quickly. I love building efficient programs and scalable procedures.</p>
+        <p className="bio-text">Hey there! I'm David and I am a professional software engineer.</p>
+        <p className="bio-text">If you can identify, actuate, and iterate... you will see huge results in software, business, and personal life. I have founded two companies on the back of this mantra, Jurne and Sendelight, both of which achieved revenue stage. I brought this procedure to a third start-up, Lingua Robotica, helping them build and scale a search engine for developers. If you want to reach out, email me at shurdave@gmail.com!</p>
       </div>
     </div>
     <div className="skills">

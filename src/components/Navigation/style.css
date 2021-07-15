@@ -17,6 +17,7 @@ ul {
   padding: 0;
   position: sticky;
   top: 0;
+  width: 100%;
 }
 
 .nav-content {
@@ -29,7 +30,6 @@ ul {
 
 .nav-link {
   align-items: center;
-  box-sizing: border-box;
   color: white;
   display: flex;
   flex: 1 0 auto;
